@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="274" failures="0" disabled="0" errors="0" timestamp="2018-10-16T00:09:32" time="0.173" name="AllTests">
+  <testsuite name="AnimationUtilsTests" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="AnimationUtils_Test_GetKeyframeTimes_Scalar_Float__none" status="run" time="0" classname="AnimationUtilsTests" />
+    <testcase name="AnimationUtils_Test_GetInverseBindMatrices_Mat4_Float__none" status="run" time="0" classname="AnimationUtilsTests" />
+    <testcase name="AnimationUtils_Test_GetTranslations_Vec3_Float__none" status="run" time="0" classname="AnimationUtilsTests" />
+    <testcase name="AnimationUtils_Test_GetRotations_Vec4_Float__none" status="run" time="0" classname="AnimationUtilsTests" />
+    <testcase name="AnimationUtils_Test_GetScales_Vec3_Float__none" status="run" time="0" classname="AnimationUtilsTests" />
+    <testcase name="AnimationUtils_Test_GetMorphWeights__none" status="run" time="0" classname="AnimationUtilsTests" />
+  </testsuite>
+  <testsuite name="ColorTests" tests="11" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Color3Lerp__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="Color4Lerp__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="OperatorMultiply__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="OperatorDivide__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="OperatorAdd__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="OperatorSubtract__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="Color3Clamp__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="Color4Clamp__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="Color3Uint32RGBA__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="Color4Uint32RGBA__none" status="run" time="0" classname="ColorTests" />
+    <testcase name="Color3AsColor4__none" status="run" time="0" classname="ColorTests" />
+  </testsuite>
+  <testsuite name="GLTFExtrasDocumentTests" tests="13" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="ExtrasDocumentTest__none" status="run" time="0.002" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentPointer__none" status="run" time="0.001" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentValue__none" status="run" time="0.001" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentNone__none" status="run" time="0.001" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetValue__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetValueMultiple__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetValueInvalidType__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetMemberValue__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetMemberValueMultiple__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetMemberValueInvalidType__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetPointerValue__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetPointerValueMultiple__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+    <testcase name="ExtrasDocumentSetPointerValueInvalidType__none" status="run" time="0" classname="GLTFExtrasDocumentTests" />
+  </testsuite>
+  <testsuite name="GLBResourceWriterTests" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="WriteBufferView_Empty_Bin__none" status="run" time="0.001" classname="GLBResourceWriterTests" />
+  </testsuite>
+  <testsuite name="ExtensionsTests" tests="8" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="Extensions_Test_RoundTrip_And_Equality__none" status="run" time="0.003" classname="ExtensionsTests" />
+    <testcase name="Extensions_Test_RoundTrip_And_Equality_Draco__none" status="run" time="0.003" classname="ExtensionsTests" />
+    <testcase name="Extensions_Test_GetExtension__none" status="run" time="0.001" classname="ExtensionsTests" />
+    <testcase name="Extensions_Test_RemoveExtension__none" status="run" time="0.001" classname="ExtensionsTests" />
+    <testcase name="Extensions_Test_HasExtension__none" status="run" time="0.002" classname="ExtensionsTests" />
+    <testcase name="Extensions_Test_HasSpecGlossExtension__none" status="run" time="0.001" classname="ExtensionsTests" />
+    <testcase name="ExtensionSerializerAddHandler__none" status="run" time="0" classname="ExtensionsTests" />
+    <testcase name="ExtensionDeserializerAddHandler__none" status="run" time="0.001" classname="ExtensionsTests" />
+  </testsuite>
+  <testsuite name="GLTFResourceReaderTests" tests="8" failures="0" disabled="0" errors="0" time="0.008">
+    <testcase name="TestReadBinaryDataAccessor__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadBase64Image__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadSparseAccessorUint8__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadSparseAccessorUint16__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadSparseAccessorUint32__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadSparseAccessorFloat__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadSparseAccessorInterleaved__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+    <testcase name="TestReadSparseEmptyBufferViewAccessor__none" status="run" time="0.001" classname="GLTFResourceReaderTests" />
+  </testsuite>
+  <testsuite name="GLTFResourceWriterTests" tests="16" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="WriteBufferView__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteBufferViewWithOffset__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteBufferViewInvalidOffset__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteBufferViewMultipleBuffers__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteAccessor__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteAccessorWithOffset__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteAccessorWithAlignment__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteAccessorWithOffsetAndAlignment__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteAccessorInvalidOffset__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="WriteAccessorInvalidTotalOffset__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="BufferBuilderMultiple__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="BufferBuilderAccessor__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="BufferBuilderAccessorUriPrefix__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="InvalidMaxMinBufferBuilderAccessor__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="BufferBuilderMultipleAccessor__none" status="run" time="0" classname="GLTFResourceWriterTests" />
+    <testcase name="BufferBuilderSharedReadWriter__none" status="run" time="0.001" classname="GLTFResourceWriterTests" />
+  </testsuite>
+  <testsuite name="SerializerGLTFTests" tests="16" failures="0" disabled="0" errors="0" time="0.011">
+    <testcase name="SerializerGLTFTests_ValidPrimitiveNoIndices__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_InvalidPrimitiveAccessorComponentType__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_InvalidPrimitiveAccessorType__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_NegativeAccessorOffset__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_NegativeBufferViewOffset__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_NegativeBufferLength__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_NegativeBufferViewLength__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_NegativeAccessorCount__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_InvalidAccessorComponentType__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_ExtraRootFields__none" status="run" time="0.001" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_DefaultDocument__none" status="run" time="0" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_DefaultDocumentAndScene__none" status="run" time="0" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_DefaultDocumentAndSceneAsDefault__none" status="run" time="0" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_DefaultDocumentAndNonDefaultScene__none" status="run" time="0" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_DefaultDocumentAndNonDefaultSceneAsDefault__none" status="run" time="0" classname="SerializerGLTFTests" />
+    <testcase name="SerializerGLTFTests_InvalidDefaultScene__none" status="run" time="0" classname="SerializerGLTFTests" />
+  </testsuite>
+  <testsuite name="GLTFTests" tests="50" failures="0" disabled="0" errors="0" time="0.104">
+    <testcase name="GLB_Deserialize_Valid__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLTF_RoundTrip_ValidCamera__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLTF_RoundTrip_ValidCameraWithExtensions__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLTF_RoundTrip_ReciprocatingSaw__none" status="run" time="0.021" classname="GLTFTests" />
+    <testcase name="GLTF_CameraMissingProperty__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLTF_CameraInvalidPerspective__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLTF_CameraInvalidProjection__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_SingleTriangle__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_Cube__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_CubeWithLOD__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_MultipleMeshes__none" status="run" time="0.005" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_SingleTriangleTextured__none" status="run" time="0.005" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_SinglePolygonNormals__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_MultipleNodes__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_Transforms__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_ComplexTexture__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_AnimatedTriangle__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_SimpleSkin__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_TriangleWithoutIndices__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_TriangleTRS__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_TriangleMatrix__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLB_RoundTrip_MorphTarget__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_MissingDefaultSceneReference__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_MissingMeshReference__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_MissingNodeReference__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_CircularNodeReference__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_MissingMaterialReference__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_MissingTextureReference__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_InvalidAccessorByteLength__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_InvalidAccessorByteOffset__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_InvalidBufferViewLength__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_AccessorMinMax__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_OffsetAlignment_SingleTriangle__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLB_OffsetAlignment_TwoTriangles__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLB_WrongReportedLength__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_WrongJsonLength__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_WrongBinHeaderLength__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLB_TextureComparison__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLTF_TestNoDefaultScene__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="GLTF_DeserializeTexCoord1__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLTF_DeserializeExtensionsUsed__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLTF_RoundTripTexCoord1__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="GLTF_DeserializeNodeAnimation__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="GLTF_DeserializeSkinnedAnimation__none" status="run" time="0.002" classname="GLTFTests" />
+    <testcase name="GLTF_Deserialize_Positions_Vec3_Float_Interleaved__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="SerializeSparseAccessorRoundTrip__none" status="run" time="0.003" classname="GLTFTests" />
+    <testcase name="Verify_Extensions_In_ExtensionsUsed__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="Verify_ExtensionsRequired_In_ExtensionsUsed__none" status="run" time="0" classname="GLTFTests" />
+    <testcase name="Verify_MeshPrimitive_Attributes_RoundTrip__none" status="run" time="0.001" classname="GLTFTests" />
+    <testcase name="UnicodeByteOrderMark__none" status="run" time="0.004" classname="GLTFTests" />
+  </testsuite>
+  <testsuite name="IndexedContainerTests" tests="20" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="IndexedContainer_Test_Operator_At_SizeT__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Operator_At_String__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Operator_Equals__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Operator_NotEquals__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Append__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Clear__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Elements__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Get_SizeT__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Get_String__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_GetIndex__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Has__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Remove__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Replace__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Replace_Rvalue_Reference__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Reserve__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Size__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Append_ThrowOnEmpty__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Append_GenerateOnEmpty__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Append_GenerateOnEmpty_Unique__none" status="run" time="0" classname="IndexedContainerTests" />
+    <testcase name="IndexedContainer_Test_Append_GenerateOnEmpty_Duplicate__none" status="run" time="0" classname="IndexedContainerTests" />
+  </testsuite>
+  <testsuite name="MeshPrimitiveUtilsTests" tests="56" failures="0" disabled="0" errors="0" time="0.013">
+    <testcase name="MeshPrimitiveUtils_Test_GetIndices16_UnsignedByte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetIndices16_UnsignedShort__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetIndices16_UnsignedInt__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetIndices32_UnsignedByte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetIndices32_UnsignedShort__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetIndices32_UnsignedInt__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetPositions_Vec3_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetMorphPositions_Vec3_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetNormals_Vec3_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetMorphNormals_Vec3_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTangents_Vec4_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetMorphTangents_Vec3_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTexcoords_Vec2_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTexcoords_Vec2_Unsigned_Byte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTexcoords_Vec2_Unsigned_Short__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetColors_Vec3_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetColors_Vec4_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetColors_Vec3_Unsigned_Byte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetColors_Vec4_Unsigned_Byte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetColors_Vec3_Unsigned_Short__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetColors_Vec4_Unsigned_Short__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointIndices32_Vec4_Unsigned_Byte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointIndices32_Vec4_Unsigned_Short__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointIndices64_Vec4_Unsigned_Byte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointIndices64_Vec4_Unsigned_Short__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointWeights32_Vec4_Float__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointWeights32_Vec4_Unsigned_Byte__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetJointWeights32_Vec4_Unsigned_Short__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTriangulatedIndices16_TriangleStrip_NoIndices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTriangulatedIndices16_TriangleFan_NoIndices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTriangulatedIndices16_TriangleStrip_Indices__none" status="run" time="0.001" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTriangulatedIndices16_TriangleFan_Indices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTriangulatedIndices32_TriangleStrip_NoIndices__none" status="run" time="0.006" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetTriangulatedIndices32_TriangleFan_NoIndices__none" status="run" time="0.001" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetSegmentedIndices16_LineStrip_NoIndices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetSegmentedIndices16_LineLoop_NoIndices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetSegmentedIndices16_LineStrip_Indices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetSegmentedIndices16_LineLoop_Indices__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetSegmentedIndices32_LineStrip_NoIndices__none" status="run" time="0.001" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_GetSegmentedIndices32_LineLoop_NoIndices__none" status="run" time="0.002" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeTriangulatedIndices16_TriangleStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeTriangulatedIndices16_TriangleFan__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeTriangulatedIndices32_TriangleStrip__none" status="run" time="0.001" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeTriangulatedIndices32_TriangleFan__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeSegmentedIndices16_LineStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeSegmentedIndices16_LineLoop__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeSegmentedIndices32_LineStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SerializeSegmentedIndices32_LineLoop__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_TriangulatedIndices16Roundtrip_TriangleStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_TriangulatedIndices16Roundtrip_TriangleFan__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_TriangulatedIndices32Roundtrip_TriangleStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_TriangulatedIndices32Roundtrip_TriangleFan__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SegmentedIndices16Roundtrip_LineStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SegmentedIndices16Roundtrip_LineLoop__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SegmentedIndices32Roundtrip_LineStrip__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+    <testcase name="MeshPrimitiveUtils_Test_SegmentedIndices32Roundtrip_LineLoop__none" status="run" time="0" classname="MeshPrimitiveUtilsTests" />
+  </testsuite>
+  <testsuite name="MicrosoftGeneratorVersionTests" tests="1" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="MicrosoftGeneratorVersionTests_ParseTest__none" status="run" time="0.003" classname="MicrosoftGeneratorVersionTests" />
+  </testsuite>
+  <testsuite name="PBRUtilsTests" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MRToSG_Dieletric__none" status="run" time="0" classname="PBRUtilsTests" />
+    <testcase name="MRToSG_Metallic__none" status="run" time="0" classname="PBRUtilsTests" />
+    <testcase name="SGToMR_Dielectric__none" status="run" time="0" classname="PBRUtilsTests" />
+    <testcase name="SGToMR_Metallic__none" status="run" time="0" classname="PBRUtilsTests" />
+    <testcase name="RoundTrip__none" status="run" time="0" classname="PBRUtilsTests" />
+  </testsuite>
+  <testsuite name="ResourceReaderUtilsTest" tests="19" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="TestValidBase64UriRanges__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64UriFinal2Chars__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64UriFinal3Chars__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestBase64UriInterleaved__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64UriFinal4Chars__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_noPadding1__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_onePadding1__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_twoPadding1__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_noPadding2__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_twoPadding2__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_noPadding3__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_onePadding2__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_twoPadding3__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestValidBase64Uri_Empty__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestInvalidBase64Uri_SpecialChar1__none" status="run" time="0.001" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestInvalidBase64Uri_SpecialChar2__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestInvalidBase64Uri_BadPadding__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestAllAsciiChar__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+    <testcase name="TestIsUriBase64__none" status="run" time="0" classname="ResourceReaderUtilsTest" />
+  </testsuite>
+  <testsuite name="SerializeUnitTest" tests="9" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="SerializeNodeMatrixTransform__none" status="run" time="0.001" classname="SerializeUnitTest" />
+    <testcase name="SerializeNodeTRSTransform__none" status="run" time="0.001" classname="SerializeUnitTest" />
+    <testcase name="SerializeNodeInvalidTransform__none" status="run" time="0" classname="SerializeUnitTest" />
+    <testcase name="MatrixNodeTest__none" status="run" time="0" classname="SerializeUnitTest" />
+    <testcase name="NoTransformTest__none" status="run" time="0" classname="SerializeUnitTest" />
+    <testcase name="TRSNodeTest__none" status="run" time="0" classname="SerializeUnitTest" />
+    <testcase name="InvalidNodeTest__none" status="run" time="0" classname="SerializeUnitTest" />
+    <testcase name="ValidNodeTest__none" status="run" time="0" classname="SerializeUnitTest" />
+    <testcase name="PerspectiveCameraTest__none" status="run" time="0" classname="SerializeUnitTest" />
+  </testsuite>
+  <testsuite name="StreamCacheTest" tests="10" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StreamReaderCacheGet__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheGetMultiple__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheSetGet__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheSetMultiple__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheErase__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheEraseFail__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheLRUSetDuplicateKey__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheLRUSetMaxSize0__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheLRUSetMaxSize1__none" status="run" time="0" classname="StreamCacheTest" />
+    <testcase name="StreamReaderCacheLRUSetMaxSize2__none" status="run" time="0" classname="StreamCacheTest" />
+  </testsuite>
+  <testsuite name="ValidationUnitTests" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="TestAddition_size_t_NoOverflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestAddition_size_t_MaxNoOverflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestAddition_size_t_MinOverflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestAddition_size_t_Overflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestMultiplication_size_t_NoOverflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestMultiplication_size_t_MaxNoOverflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestMultiplication_size_t_MinOverflow__none" status="run" time="0" classname="ValidationUnitTests" />
+    <testcase name="TestMultiplication_size_t_Overflow__none" status="run" time="0" classname="ValidationUnitTests" />
+  </testsuite>
+  <testsuite name="VersionTests" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="VersionAsString__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="VersionAsTupleSuccess__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="VersionAsTupleSuccessMultiDigit__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="VersionAsTupleInvalid__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="IsMinVersionRequirementSatisfiedDefault__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="IsMinVersionRequirementSatisfiedEmptyVersion__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="IsMinVersionRequirementSatisfiedEmptySupported__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="IsMinVersionRequirementSatisfiedMultipleMinorVersions__none" status="run" time="0" classname="VersionTests" />
+    <testcase name="IsMinVersionRequirementSatisfiedMajorMultipleMajorVersions__none" status="run" time="0" classname="VersionTests" />
+  </testsuite>
+  <testsuite name="VisitorTests" tests="6" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="TestVisitor__none" status="run" time="0.001" classname="VisitorTests" />
+    <testcase name="TestVisitorDefaultAction__none" status="run" time="0.001" classname="VisitorTests" />
+    <testcase name="TestVisitorDefaultActionSpecGloss__none" status="run" time="0.001" classname="VisitorTests" />
+    <testcase name="TestVisitorTraversalDepthFirst__none" status="run" time="0.002" classname="VisitorTests" />
+    <testcase name="TestVisitorTraversalBreadthFirst__none" status="run" time="0.001" classname="VisitorTests" />
+    <testcase name="TestVisitorFunctionPointer__none" status="run" time="0.001" classname="VisitorTests" />
+  </testsuite>
+  <testsuite name="glTFPropertyTests" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="RegisteredExtensionEqualsTrue__none" status="run" time="0" classname="glTFPropertyTests" />
+    <testcase name="RegisteredExtensionEqualsFalse__none" status="run" time="0" classname="glTFPropertyTests" />
+  </testsuite>
+</testsuites>
